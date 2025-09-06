@@ -16,25 +16,18 @@ Through this practical implementation, we will gain an understanding of the role
 ---------
 <h2>Objectives 目標</h2>
 
-* Verify installation and environment.<br/>
-  (確認安裝環境與 OpenSSL 版本)</b>
+* Demonstrate the generation, encryption/decryption, and signing/verification using RSA.<br/>
+  (展示 RSA 金鑰生成、加解密與簽章驗證)</b>
   <br/>
 
-* Explore supported algorithms.<br/>
-  (探索 OpenSSL 支援的演算法)</b>
+* Explore the use of DSA as another public key cryptography algorithm.<br/>
+  (探索 DSA 演算法)</b>
   <br/>
 
-* Generate secure random keys.<br/>
-  (產生具隨機性的加密金鑰)</b>
+* Understand the importance of hashing before signing and how digital signatures ensure data integrity.<br/>
+  (理解簽章前雜湊的重要性，確保資料完整性)</b>
   <br/>
 
-* Automate tasks using Bash scripting.<br/>
-  (利用 Bash 腳本自動化隨機數產生流程)</b>
-  <br/>
-
-* Build hands-on cryptographic understanding.<br/>
-  (建立加密作業的實務理解，並為進一步資訊安全研究奠定基礎)</b>
-  <br/>
 
 ---------
 
@@ -43,14 +36,15 @@ Through this practical implementation, we will gain an understanding of the role
 <div align="center">
 </p>
 
-| Aspect <br/>(面向) | Learning content and purpose <br/>(學習內容與目的) |
-| ----------------- | ----------------------------------------------- |
-| Cryptographic toolkit <br/>(加密工具) | Learn the usage of OpenSSL for cryptographic operations. <br/>(學習使用 OpenSSL 進行加密作業) |
-| Algorithm exploration <br/>(演算法探索) | Explore digest and cipher algorithms supported by OpenSSL. <br/>(探索 OpenSSL 支援的雜湊與加密演算法) |
-| Random key generation <br/>(隨機金鑰生成) | Generate and view cryptographic random numbers using OpenSSL. <br/>(透過 OpenSSL 產生與檢視隨機金鑰) |
-| Automation with scripting <br/>(腳本自動化) | Write a Bash script to automate random number generation. <br/>(撰寫 Bash 腳本以自動化產生亂數金鑰) |
+| Aspect <br/>(面向)                          | Learning content and purpose <br/>(學習內容與目的)                                                    |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Key Management <br/>(金鑰管理)                | Generate RSA and DSA private/public key pairs. <br/>(生成 RSA 與 DSA 公私鑰)                         |
+| Encryption/Decryption <br/>(加解密)          | Encrypt and decrypt files using RSA public/private keys. <br/>(使用 RSA 公私鑰加解密檔案)                |
+| Digital Signature <br/>(數位簽章)             | Sign with private keys and verify with public keys. <br/>(以私鑰簽章並以公鑰驗證)                         |
+| Hashing before Signing <br/>(雜湊與簽章)       | Combine hashing (SHA1) with RSA signing. <br/>(結合 SHA1 雜湊與 RSA 簽章)                             |
+| Practical Security Thinking <br/>(資安實務思維) | Understand authenticity and integrity through cryptographic workflows. <br/>(透過密碼學流程理解真實性與完整性) |
 </div>
-<br/>
+
 
 ---------
 
