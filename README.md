@@ -56,10 +56,11 @@ Through this practical implementation, we will gain an understanding of the role
 * Kali Linux OS (Kali Linux 作業系統)</b>
 
 [Tasks]
-* Check OpenSSL Version (檢查 OpenSSL 版本)</b>
-* Explore Supported Commands and Algorithms (探索支援的指令與演算法)</b>
-* Generate Random Numbers (產生隨機數字)</b>
-* Automate with Bash Script (使用 Bash 腳本自動化)</b>
+* RSA Key Pair Generation (RSA 金鑰生成)</b>
+* RSA Encryption and Decryption (RSA 加解密)</b>
+* RSA Signing and Verification (RSA 簽章與驗證)</b>
+* DSA Key Pair Generation (DSA 金鑰生成)</b>
+* Hashing before Signing (簽章前雜湊)</b>
 
 ---------
 
