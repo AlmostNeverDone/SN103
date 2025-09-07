@@ -117,9 +117,19 @@ Through this practical implementation, we will gain an understanding of the role
 
 <h2>Results 成果展示</h2>
 
-Through this project, we practiced using OpenSSL for cryptographic operations. The steps covered installation verification, algorithm exploration, random key generation, and automation with Bash scripting. This practical knowledge is useful for understanding fundamental cryptographic processes and applying them in real-world system security contexts.
+* The implementation of RSA and DSA demonstrates the core applications of public-key cryptography and digital signatures.<br/>
+  (RSA 與 DSA 的實作展示了 公開金鑰加密 與 數位簽章 的核心應用)</b>
+  <br/>
 
-透過本次專題，我們熟悉了使用 OpenSSL 進行加密作業的流程。步驟涵蓋了安裝驗證、演算法探索、隨機金鑰生成，以及使用 Bash 腳本自動化的應用。這些實務技能有助於理解基礎加密流程，並在實際資訊安全情境中加以應用。
+* RSA can be used for both encryption and decryption, as well as signing, while DSA focuses on signature verification.<br/>
+  (RSA 可同時用於加解密與簽章，DSA 則專注於簽章驗證)</b>
+  <br/>
+* Digital signatures combined with hashing effectively ensure data integrity and non-repudiation.<br/>
+  (數位簽章結合雜湊能有效確保資料完整性與不可否認性)</b>
+  <br/>
+* This project provides practical operational experience and can serve as a foundation for further research in SSL/TLS and PKI architectures.<br/>
+  (本專題提供了實務操作經驗，可作為進一步研究 SSL/TLS、PKI 架構 的基礎)</b>
+  <br/>
 
 
 ---------
