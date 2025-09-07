@@ -67,16 +67,16 @@ Through this practical implementation, we will gain an understanding of the role
 <h2>Practice 實踐</h2>
 
 <p align="center">
-<b>Task 1: Check OpenSSL Version<br/>(檢查 OpenSSL 版本)</b><br/>
-<img src="https://i.imgur.com/2Sc5HNp.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Task 1-1: Generate Private Key & Extract Public Key<br/>(產生私鑰並提取公鑰)</b><br/>
+<img src="https://i.imgur.com/TH4DGYh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 2: Explore Supported Commands and Algorithms<br/>(探索支援的指令與演算法)</b><br/>
-<img src="https://i.imgur.com/uLQqz29.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Task 1-2: View Private Key Details <br/>(檢視私鑰)</b><br/>
+<img src="https://i.imgur.com/2A5KA6m.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 3: Generate Random Numbers<br/>(產生隨機數字)</b><br/>
-<img src="https://i.imgur.com/lRJXM0r.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Task 1-3: View Public Key in ASN.1 Format<br/>(檢視公鑰 ASN.1 格式)</b><br/>
+<img src="https://i.imgur.com/r2IKqo1.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 * Display the random number in Hexadecimal 2-byte units.<br/>(以十六進位2位元組為單位顯示隨機數)</b>
 <br />
