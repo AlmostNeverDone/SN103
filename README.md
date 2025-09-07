@@ -78,15 +78,40 @@ Through this practical implementation, we will gain an understanding of the role
 <b>Task 1-3: View Public Key in ASN.1 Format<br/>(檢視公鑰 ASN.1 格式)</b><br/>
 <img src="https://i.imgur.com/r2IKqo1.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-* Display the random number in Hexadecimal 2-byte units.<br/>(以十六進位2位元組為單位顯示隨機數)</b>
+<br />
+<b>Task 2: RSA Encryption and Decryption <br/>(RSA 加解密)</b><br/>
+<img src="https://i.imgur.com/Lh0XDEd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 4: Automate with Bash Script<br/>(使用 Bash 腳本自動化)</b><br/>
-<img src="https://i.imgur.com/23mfFYL.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Task 3: RSA Signing and Verification (RSA 簽章與驗證)<br/>
+<img src="https://i.imgur.com/BuCSSbA.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-* This script automates random key generation and prints the result in hex.<br/>(此腳本自動產生隨機金鑰並以十六進位輸出結果)</b>
+* No output from the command indicates that the files are completely consistent and the verification is successful.<br/>(命令沒有輸出，表示檔案完全一致，驗證成功)</b>
 <br/>
-
+<br />
+<b>Task 4-1: Key Pair Generation<br/>(生成配對金鑰)</b><br/>
+<img src="https://i.imgur.com/CzwF9nz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Task 4-2: View private key contents<br/>(查看私鑰內容)</b><br/>
+<img src="https://i.imgur.com/m1G8aX1.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Task 4-3: View public key in text format<br/>(以文字格式查看公鑰)</b><br/>
+<img src="https://i.imgur.com/M6Dsduc.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Task 4-4: View public key in ASN.1 format<br/>(以ASN.1格式查看公鑰)</b><br/>
+<img src="https://i.imgur.com/gd7vy8A.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Task 5-1: Signature and verification successful.<br/>(簽章與驗證成功)</b><br/>
+<img src="https://i.imgur.com/0ZdeoFt.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Task 5-2: Verification failed after modifying the file.<br/>(修改檔案後驗證失敗)</b><br/>
+<img src="https://i.imgur.com/h8cSASa.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 
 ---------
 
